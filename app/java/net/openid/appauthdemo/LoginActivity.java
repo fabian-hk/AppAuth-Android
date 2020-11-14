@@ -474,6 +474,7 @@ public final class LoginActivity extends AppCompatActivity {
                 mClientId.get(),
                 ResponseTypeValues.CODE,
                 mConfiguration.getRedirectUri())
+                .setCodeVerifier(null)
                 .setScope(mConfiguration.getScope());
 
         if (!TextUtils.isEmpty(loginHint)) {

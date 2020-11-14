@@ -37,6 +37,7 @@
             android:label="@string/app_name_short"
             android:theme="@style/AppTheme"
             android:supportsRtl="false"
+            android:usesCleartextTraffic="true"
             android:name=".Application">
 
         <!-- Main activity -->
